@@ -40,6 +40,7 @@ For the UI-lovers:
    - key: you can choose
    - value MONGODB_URI=[mongo-db-connection-string]
 9. Install bootcamp-chat-api on your namespace and set the ENV value with the key from the configmap
+   - docker-image: 04091998/bootcamp-api:v0.0.1
 10. Create a service that can access the deployment on port 3001
 11. Make the service public with ingress
 
